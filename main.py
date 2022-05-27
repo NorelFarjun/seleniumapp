@@ -15,7 +15,7 @@ def main():
     options.add_argument(r'--user-data-dir=')
     driver = webdriver.Chrome(PATH, options= options)
     driver.get("https://web.whatsapp.com/")
-    time.sleep(20)
+    time.sleep(15)
 
 
 
